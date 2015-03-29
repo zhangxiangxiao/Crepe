@@ -139,8 +139,8 @@ data = {index = {}, length = {}, content = torch.ByteTensor(bytecount)}
 progress = {}
 for class = 1, max_class do
    progress[class] = 0
-   data.index[class] = torch.LongTensor(count[class], nitems)
-   data.length[class] = torch.LongTensor(count[class], nitems)
+   data.index[class] = torch.LongTensor(count[class], nitems - 1)
+   data.length[class] = torch.LongTensor(count[class], nitems - 1)
 end
 n = 0
 index = 1

@@ -65,8 +65,8 @@ function Data:getBatch(inputs, labels, data, extra)
       -- Choose data
       label = torch.random(#data.index)
       local input = torch.random(data.index[label]:size(1))
-      s = ffi.string(torch.data(data.content:narrow(1, data.index[label][input][data.index:size(3)], 1)))
-      for l = data.index:size(3) - 1, 1, -1 do
+      s = ffi.string(torch.data(data.content:narrow(1, data.index[label][input][data.index[label][input]:size(1)], 1)))
+      for l = data.index[label][input]:size(1) - 1, 1, -1 do
 	 s = s.." "..ffi.string(torch.data(data.content:narrow(1, data.index[label][input][l], 1)))
       end
       -- Correct the length
@@ -141,8 +141,8 @@ function Data:iterator(static, data)
 	    j = 1
 	 end
 	 n = n + 1
-	 local s = ffi.string(torch.data(data.content:narrow(1, data.index[i][j][data.index:size(3)], 1)))
-	 for l = data.index:size(3) - 1, 1, -1 do
+	 local s = ffi.string(torch.data(data.content:narrow(1, data.index[i][j][data.index[i][j]:size(1)], 1)))
+	 for l = data.index[i][j]:size(1) - 1, 1, -1 do
 	    s = s.." "..ffi.string(torch.data(data.content:narrow(1, data.index[i][j][l], 1)))
 	 end
 	 local data = self:stringToTensor(s, self.length, inputs:select(1, k))
