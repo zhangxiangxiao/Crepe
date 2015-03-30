@@ -1,7 +1,6 @@
 --[[
-Data for sentiment analysis using convolutional neural nets
+Data Program for Crepe
 By Xiang Zhang @ New York University
-Version 0.1, 12/01/2014
 --]]
 
 require("image")
