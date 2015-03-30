@@ -27,7 +27,7 @@ In the commands above, you can replace `qlua` by `luajit` as long as it has an a
 ```sh
 $ cd train
 $ qlua main.lua
-```sh
+```
 
 This time you have to use `qlua`, because there is a nice visualization using Qt that is updated for every era. You will have to make sure packages `qtlua` and `qttorch` are installed in your system and there is a corresponding X to your terminal. To run this example succesfully you will also need a NVidia GPU with at least 3GB of memory. Otherwise, you can configure the model in `train/config.lua` for less parameters.
 
