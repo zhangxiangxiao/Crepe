@@ -14,7 +14,7 @@ For more information, please refer to the readme files in each component directo
 
 ## Example Usage
 
-Here an example of using our data tools and training programs pipeline to replicate the small convolutional network for DBPedia ontology classification in the article. First, clone the project and download the file `dbpedia_csv.tar.gz` from [our storage in Google Drive](http://goo.gl/JyCnZq) to the `data` directory. Then, uncompress the files and build `t7b` files using our dataset tools.
+Here is an example of using our data tools and training programs pipeline to replicate the small convolutional network for DBPedia ontology classification in the article. First, clone the project and download the file `dbpedia_csv.tar.gz` from [our storage in Google Drive](http://goo.gl/JyCnZq) to the `data` directory. Then, uncompress the files and build `t7b` files using our dataset tools.
 ```sh
 $ cd data
 $ tar -xvf dbpedia_csv.tar.gz
