@@ -69,10 +69,6 @@ function Data:getBatch(inputs, labels, data, extra)
       for l = data.index[label][input]:size(1) - 1, 1, -1 do
 	 s = s.." "..ffi.string(torch.data(data.content:narrow(1, data.index[label][input][l], 1)))
       end
-      -- Correct the length
-      if s:len() > self.length then
-	 s = s:sub(1, self.length)
-      end
       labels[i] = label
       -- Thesaurus replacement
       if self.thes and math.random() < self.thes.p then
@@ -107,6 +103,8 @@ function Data:getBatch(inputs, labels, data, extra)
 	    s = news
 	 end
       end
+      -- Quantize the string
+      self:stringToTensor(s, self.length, inputs:select(1, i))
    end
 
    return inputs, labels
