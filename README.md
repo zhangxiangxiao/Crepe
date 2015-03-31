@@ -36,4 +36,4 @@ Okay! If you start to find out checkpointing files like `main_EPOCHES_TIME.t7b` 
 
 ## Why Call It "Crepe"?
 
-It is just a word popping up to my mind pondering for a repository name in Github. It has nothing to do with French cuisine, text processing or convolutional networks. If a connection is really really needed, how about "Convolutional REPresentation of tExt"?
+It is just a word popping up to my mind pondering for a repository name in Github. It has nothing to do with French cuisine, text processing or convolutional networks. If a connection is really really needed, how about "Convolutional REPresentation of Expressions"?
