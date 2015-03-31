@@ -2,7 +2,7 @@
 
 This repository contains code in Torch 7 for text classification from character-level using convolutional networks. It can be used to reproduce the results in the following article:
 
-Xiang Zhang, Yann LeCun. Text Understanding from Scratch. [Arxiv 1502.01710](http://arxiv.org/abs/1502.01710).
+Xiang Zhang, Yann LeCun. Text Understanding from Scratch. [arXiv 1502.01710](http://arxiv.org/abs/1502.01710).
 
 ## Components
 
