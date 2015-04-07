@@ -4,6 +4,8 @@ This repository contains code in Torch 7 for text classification from character-
 
 Xiang Zhang, Yann LeCun. Text Understanding from Scratch. [arXiv 1502.01710](http://arxiv.org/abs/1502.01710).
 
+** Note: Dataset duplication issues were found regarding to the above mentioned technical report. The Crepe code and the DBPedia dataset in the example usage are not affected. For more information, please refer to http://xzh.me/posts/datasetdup **
+
 ## Components
 
 This repository contains the following components:
