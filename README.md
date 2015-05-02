@@ -1,4 +1,5 @@
 # Crepe
+[![DOI](https://zenodo.org/badge/12639/zhangxiangxiao/Crepe.svg)](http://dx.doi.org/10.5281/zenodo.17308)
 
 This repository contains code in Torch 7 for text classification from character-level using convolutional networks. It can be used to reproduce the results in the following article:
 
