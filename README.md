@@ -3,7 +3,7 @@
 
 This repository contains code in Torch 7 for text classification from character-level using convolutional networks. It can be used to reproduce the results in the following article:
 
-Xiang Zhang, Junbo Zhao, Yann LeCun. Character-level Convolutional Networks for Text Classification. Advances in Neural Information Processing Systems 28 (NIPS 2015)
+Xiang Zhang, Junbo Zhao, Yann LeCun. [Character-level Convolutional Networks for Text Classification](http://arxiv.org/abs/1509.01626). Advances in Neural Information Processing Systems 28 (NIPS 2015)
 
 **Note**: An early version of this work entitled “Text Understanding from Scratch” was posted in Feb 2015 as [arXiv:1502.01710](http://arxiv.org/abs/1502.01710). The present paper above has considerably more experimental results and a rewritten introduction.
 
