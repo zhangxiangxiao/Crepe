@@ -37,6 +37,10 @@ This time we have to use `qlua`, because there is a nice visualization using Qt 
 
 Okay! If you start to find out checkpointing files like `main_EPOCHES_TIME.t7b` and `sequential_EPOCHES_TIME.[t7b|png]` appearing under the `train` directory in several hours or so, it means the program is running without problems. You should probably find some other entertainment for the day. :P
 
+## Issues
+
+It is discovered that the alphabet actually has two hyphen/minus characters ('-'). This issue was present for the results in the papers as well. Since this is probably a minor issue, we will keep the alphabet configurations as is to ensure reproduceability. That said, you are welcome to change the `alphabet` variable in `train/config.lua` to remove it. See issue #4 for more details.
+
 ## Why Call It "Crepe"?
 
 It is just a word popping up to my mind pondering for a repository name in Github. It has nothing to do with French cuisine, text processing or convolutional networks. If a connection is really really needed, how about "Convolutional REPresentation of Expressions"?
