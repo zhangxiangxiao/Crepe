@@ -7,6 +7,8 @@ Xiang Zhang, Junbo Zhao, Yann LeCun. [Character-level Convolutional Networks for
 
 **Note**: An early version of this work entitled “Text Understanding from Scratch” was posted in Feb 2015 as [arXiv:1502.01710](http://arxiv.org/abs/1502.01710). The present paper above has considerably more experimental results and a rewritten introduction.
 
+**Note**: See also the [example implementation in NVIDIA DIGITS](https://github.com/NVIDIA/DIGITS/tree/master/examples/text-classification). Using [CuDNN](https://github.com/soumith/cudnn.torch) is 17 times faster than the code here.
+
 ## Components
 
 This repository contains the following components:
