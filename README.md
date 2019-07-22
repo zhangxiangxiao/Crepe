@@ -35,7 +35,7 @@ $ cd train
 $ qlua main.lua
 ```
 
-This time we have to use `qlua`, because there is a nice visualization using Qt that is updated for every era. Please make sure packages `qtlua` and `qttorch` are installed in your system and there is a corresponding X to your terminal. To run this example succesfully you will also need a NVidia GPU with at least 3GB of memory. Otherwise, you can configure the model in `train/config.lua` for less parameters.
+This time we have to use `qlua`, because there is a nice visualization using Qt that is updated for every era. Please make sure packages `qtlua` and `qttorch` are installed in your system and there is a corresponding X to your terminal. To run this example successfully you will also need a NVidia GPU with at least 3GB of memory. Otherwise, you can configure the model in `train/config.lua` for less parameters.
 
 Okay! If you start to find out checkpointing files like `main_EPOCHES_TIME.t7b` and `sequential_EPOCHES_TIME.[t7b|png]` appearing under the `train` directory in several hours or so, it means the program is running without problems. You should probably find some other entertainment for the day. :P
 
